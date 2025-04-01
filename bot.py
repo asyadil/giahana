@@ -3,6 +3,9 @@ import time
 import openai
 from instagrapi import Client
 
+# Nge-cek botnya jalan apa kgk
+print("Bot nya lagi jalan . . .")
+
 # Ambil variabel dari environment
 OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 IG_USERNAME = os.environ["IG_USERNAME"]
